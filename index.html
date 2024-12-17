@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candide Trivia Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Candide: Who Wants to Be a Philosopher?</h1>
+        <div id="question-box">
+            <p id="question-text">Question appears here</p>
+            <div id="options">
+                <!-- Answer buttons will be dynamically inserted -->
+            </div>
+        </div>
+        <div id="feedback"></div>
+        <button id="next-btn" onclick="loadNextQuestion()">Next</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
